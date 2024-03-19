@@ -1,0 +1,56 @@
+
+body{
+    text-align: center;
+    margin: 0%;
+    padding: 0;
+    animation: gradient 6s linear infinite 1s alternate ;
+    /* background-image: linear-gradient(to right, rgb(238, 95, 13) , rgb(14, 177, 210)); */
+    
+}
+@keyframes gradient {
+    0%{background-color: rgb(57, 55, 91)}
+    20%{background-color: rgb(116, 92, 151)}
+    50%{background-color: rgb(129, 36, 118)}
+    75%{background-color: rgb(126, 47, 77)}
+    100%{background-color: rgb(94, 61, 51)
+     }  
+}
+
+#main{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 3px solid rgb(168, 21, 21); */
+    align-content: space-evenly;
+    margin: auto;
+
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    border: 6px solid black;
+    border-radius: 30%;
+    margin: 2%;
+}
+.first{
+    background-color: rgb(0, 255, 255);
+}
+.second{
+    background-color: rgb(0, 119, 255);
+}
+.third{
+    background-color: rgb(255, 0, 242);
+}
+.fourth{
+    background-color: rgb(0, 255, 0);
+}
+.gameflash{
+    background-color: rgb(0, 0, 0);
+}
+.userflash{
+    background-color: rgb(255, 255, 255);
+}
+
